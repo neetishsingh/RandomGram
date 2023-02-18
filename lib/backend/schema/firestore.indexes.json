@@ -1,0 +1,22 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "ToDoList",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "user",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "toDoState",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "completedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
